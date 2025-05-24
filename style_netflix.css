@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Netflix Sans', Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 140px;
+    margin: auto;
+}
+
+
+header {
+    width: 1520.8px;
+    overflow: hidden;
+    /* width: 1439.8px; */
+    height: 809.7px;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/914ad279-199e-4095-9c10-2409dc9e5e1b/web/IN-en-20250519-TRIFECTA-perspective_8f1ca896-9e49-4a4e-90f0-22fc49650bd9_large.jpg");
+    background-repeat: no-repeat;
+    /* background-blend-mode: darken; */
+    filter: brightness(35%);
+    background-size: cover;
+    width: 1520.8px;
+    /* width: 1439.8px; */
+    height: 809.7px;
+    /* background-size: contain; */
+    background-position: center;
+}
+
+#language {
+    /* border: 0.2px solid white; */
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 53px 12px 10px;
+    display: flex;
+}
+
+.signin {
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-color: rgb(230, 20, 20);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 9px 16px;
+    cursor: pointer;
+}
+
+.lang {
+    display: flex;
+    gap: 15px;
+}
+
+.first {
+    font-family: 'Netflix Sans', Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: 900;
+    font-size: 54px;
+    width: 614px;
+    margin-top: 188px;
+    text-align: center;
+}
+
+.second {
+    font-family: 'Netflix Sans', Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+.third {
+    font-size: large;
+    margin-bottom: 9px;
+    z-index: 0;
+}
+
+.repeat {
+    position: relative;
+    top: 122px;
+}
+
+.content {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -25px;
+
+}
+
+.submit {
+    background-color: rgb(230, 20, 20);
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+    border-radius: 5px;
+    padding-bottom: 11px;
+    padding-top: 4px;
+    width: 235px;
+    height: 46px;
+    font-size: 23px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 148px;
+    height: 40px;
+}
+
+#email {
+    background-color: black;
+    color: gray;
+    padding: 11px 91px 11px 13px;
+    border-radius: 5px;
+    width: 247px;
+    height: 20px;
+    opacity: 70%;
+    cursor: auto;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 51px;
+    gap: 16px;
+}
+
+.a1 {
+    content: "";
+    height: 279px;
+    width: 201px;
+    border-radius: 15px;
+    margin-left: 27px;
+    cursor: pointer;
+}
+
+.a1:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+}
+
+.movie {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    height: 310px;
+    width: 1250px;
+    position: relative;
+    left: -37px;
+    padding: 12px 10px;
+    gap: 70px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-color: black black;
+    margin: 0px 161px;
+    scrollbar-width: none;
+}
+
+.a {
+    font-size: 28px;
+    font-weight: 750;
+    color: rgb(255, 255, 255);
+    padding: 50px 160px;
+}
+
+.f1 {
+    background-color: black;
+    width: 1520.8px;
+    overflow: hidden;
+    height: 2500px;
+    position: relative;
+    top: -65px;
+}
+
+
+.number {
+    font-size: 111px;
+    font-weight: 500;
+    text-shadow: 0 0 0px white;
+    position: relative;
+    top: 72px;
+    right: 60px;
+    z-index: 2;
+}
+
+.number2 {
+    font-size: 115px;
+    font-weight: 700;
+    text-shadow: 0 0 0px white;
+    position: relative;
+    color: white;
+    top: 73px;
+    right: 124px;
+    z-index: 1;
+}
+
+.jclass {
+    border: 2px solid black;
+    /* width: 1520.8px; */
+    /* height: 70px; */
+    position: relative;
+    margin: 30px 138px;
+    color: white;
+    left: 11px;
+    list-style: none;
+    display: flex;
+    gap: 46px;
+}
+
+.j {
+    border-radius: 13px;
+    background-color: rgb(43 32 45);
+    height: 255px;
+    width: 246px;
+    border-radius: 13px;
+    padding: 20px;
+}
+
+
+#pa {
+    font-weight: 600;
+    margin-bottom: 28px;
+    font-size: 22px;
+}
+
+#pa1 {
+    font-size: 17px;
+}
+
+.pic1 {
+    position: relative;
+    bottom: -44px;
+    left: 157px;
+}
+
+.pic2 {
+    position: relative;
+    bottom: -36px;
+    left: 152px;
+}
+
+.pic3 {
+    position: relative;
+    bottom: -66px;
+    left: 156px;
+}
+
+.pic4 {
+    position: relative;
+    bottom: -42px;
+    left: 159px;
+}
+
+.submit:hover {
+    background-color: rgb(198, 32, 41);
+}
+
+.signin:hover {
+    background-color: rgb(198, 32, 41);
+}
+
+.faqs {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+    position: relative;
+    left: 160px;
+    font-size: 20px;
+}
+
+.faq:hover {
+    background-color: rgb(139, 139, 139);
+}
+
+.faq {
+    background-color: rgb(79, 78, 78);
+    padding: 27px;
+    display: flex;
+    transition: all 0s ease-out 0s;
+    justify-content: space-between;
+    width: 1173px;
+}
+
+.number3 {
+    grid-area: que;
+    position: relative;
+    top: 221px;
+    left: 163px;
+}
+
+.grid {
+    color: #b9b7b6;
+    font-size: 17px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-decoration: underline;
+    text-decoration-color: #b9b7b6;
+    margin: 164px;
+    position: relative;
+    justify-content: center;
+    top: 81px;
+}
+
+.grid21 {
+    line-height: 34px;
+}
+
+.grid22 {
+    line-height: 34px;
+}
+
+.grid23 {
+    line-height: 34px;
+}
+
+.grid24 {
+    line-height: 34px;
+}
+
+.listgrid:hover {
+    color: #f4f3f1;
+    /* transform: scale(1.05); */
+    cursor: pointer;
+}
+
+.lang1 {
+    position: relative;
+    margin-left: 159px;
+    margin-top: -11px;
+}
+
+.learn {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    cursor: pointer;
+}
+
+.end {
+    color: gray;
+    position: relative;
+    top: 25px;
+    left: 161px;
+}
+
+.company {
+    color: #b9b7b6;
+    font-size: 17px;
+    margin: 21px;
+    position: relative;
+    top: 15px;
+    left: 141px;
+}
+
+.cont {
+    text-decoration: underline;
+    text-decoration-color: #b9b7b6;
+    cursor: pointer;
+}
