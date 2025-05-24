@@ -175,6 +175,7 @@ header::before {
     overflow: hidden;
     height: 2500px;
     position: relative;
+    top:0px;
 }
 
 
