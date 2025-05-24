@@ -27,7 +27,7 @@ header::before {
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/914ad279-199e-4095-9c10-2409dc9e5e1b/web/IN-en-20250519-TRIFECTA-perspective_8f1ca896-9e49-4a4e-90f0-22fc49650bd9_large.jpg");
     background-repeat: no-repeat;
     /* background-blend-mode: darken; */
-    filter: brightness(35%);
+    filter: brightness(20%);
     background-size: cover;
     width: 1520.8px;
     /* width: 1439.8px; */
@@ -175,7 +175,6 @@ header::before {
     overflow: hidden;
     height: 2500px;
     position: relative;
-    top:0px;
 }
 
 
@@ -184,8 +183,9 @@ header::before {
     font-weight: 500;
     text-shadow: 0 0 0px white;
     position: relative;
-    top: 72px;
-    right: 60px;
+    top: 74px;
+    right: 95px;
+    filter: drop-shadow(2px 4px 6px black);
     z-index: 2;
 }
 
